@@ -1,0 +1,770 @@
+[
+    {
+        "step": 1,
+        "carAstate": {
+            "carApos": 0,
+            "edgefrom": 0,
+            "edgeto": 1,
+            "progress": 1,
+            "path": [
+                0,
+                1,
+                40,
+                38,
+                48
+            ]
+        },
+        "carBstate": {
+            "carBpos": 49,
+            "edgefrom": 49,
+            "edgeto": 0,
+            "progress": 0,
+            "path": []
+        },
+        "reached": false,
+        "caught": false,
+        "events": []
+    },
+    {
+        "step": 2,
+        "carAstate": {
+            "carApos": 0,
+            "edgefrom": 0,
+            "edgeto": 1,
+            "progress": 2,
+            "path": [
+                0,
+                1,
+                40,
+                38,
+                48
+            ]
+        },
+        "carBstate": {
+            "carBpos": 49,
+            "edgefrom": 49,
+            "edgeto": 0,
+            "progress": 0,
+            "path": []
+        },
+        "reached": false,
+        "caught": false,
+        "events": [
+            {
+                "edge": [
+                    22,
+                    46
+                ],
+                "type": "one_way_block",
+                "step_start": 2,
+                "step_end": 8,
+                "original_weight": 5.5140748668793025
+            }
+        ]
+    },
+    {
+        "step": 3,
+        "carAstate": {
+            "carApos": 0,
+            "edgefrom": 0,
+            "edgeto": 1,
+            "progress": 3,
+            "path": [
+                0,
+                1,
+                40,
+                38,
+                48
+            ]
+        },
+        "carBstate": {
+            "carBpos": 49,
+            "edgefrom": 49,
+            "edgeto": 0,
+            "progress": 0,
+            "path": []
+        },
+        "reached": false,
+        "caught": false,
+        "events": [
+            {
+                "edge": [
+                    22,
+                    46
+                ],
+                "type": "one_way_block",
+                "step_start": 2,
+                "step_end": 8,
+                "original_weight": 5.5140748668793025
+            }
+        ]
+    },
+    {
+        "step": 4,
+        "carAstate": {
+            "carApos": 0,
+            "edgefrom": 0,
+            "edgeto": 1,
+            "progress": 4,
+            "path": [
+                0,
+                1,
+                40,
+                38,
+                48
+            ]
+        },
+        "carBstate": {
+            "carBpos": 49,
+            "edgefrom": 49,
+            "edgeto": 8,
+            "progress": 1.5,
+            "path": [
+                49,
+                8,
+                1
+            ]
+        },
+        "reached": false,
+        "caught": false,
+        "events": [
+            {
+                "edge": [
+                    22,
+                    46
+                ],
+                "type": "one_way_block",
+                "step_start": 2,
+                "step_end": 8,
+                "original_weight": 5.5140748668793025
+            }
+        ]
+    },
+    {
+        "step": 5,
+        "carAstate": {
+            "carApos": 1,
+            "edgefrom": 1,
+            "edgeto": 40,
+            "progress": 0,
+            "path": [
+                0,
+                1,
+                40,
+                38,
+                48
+            ]
+        },
+        "carBstate": {
+            "carBpos": 49,
+            "edgefrom": 49,
+            "edgeto": 8,
+            "progress": 3.0,
+            "path": [
+                49,
+                8,
+                1
+            ]
+        },
+        "reached": false,
+        "caught": false,
+        "events": [
+            {
+                "edge": [
+                    22,
+                    46
+                ],
+                "type": "one_way_block",
+                "step_start": 2,
+                "step_end": 8,
+                "original_weight": 5.5140748668793025
+            },
+            {
+                "edge": [
+                    1,
+                    15
+                ],
+                "type": "one_way_block",
+                "step_start": 5,
+                "step_end": 11,
+                "original_weight": 7.810318634686391
+            }
+        ]
+    },
+    {
+        "step": 6,
+        "carAstate": {
+            "carApos": 1,
+            "edgefrom": 1,
+            "edgeto": 40,
+            "progress": 1,
+            "path": [
+                0,
+                1,
+                40,
+                38,
+                48
+            ]
+        },
+        "carBstate": {
+            "carBpos": 49,
+            "edgefrom": 49,
+            "edgeto": 8,
+            "progress": 4.5,
+            "path": [
+                49,
+                8,
+                1
+            ]
+        },
+        "reached": false,
+        "caught": false,
+        "events": [
+            {
+                "edge": [
+                    22,
+                    46
+                ],
+                "type": "one_way_block",
+                "step_start": 2,
+                "step_end": 8,
+                "original_weight": 5.5140748668793025
+            },
+            {
+                "edge": [
+                    1,
+                    15
+                ],
+                "type": "one_way_block",
+                "step_start": 5,
+                "step_end": 11,
+                "original_weight": 7.810318634686391
+            },
+            {
+                "edge": [
+                    22,
+                    32
+                ],
+                "type": "traffic_jam",
+                "step_start": 6,
+                "step_end": 9,
+                "original_weight": 9.719263735450726,
+                "multiplier": 4.383958687062423
+            }
+        ]
+    },
+    {
+        "step": 7,
+        "carAstate": {
+            "carApos": 1,
+            "edgefrom": 1,
+            "edgeto": 40,
+            "progress": 2,
+            "path": [
+                0,
+                1,
+                40,
+                38,
+                48
+            ]
+        },
+        "carBstate": {
+            "carBpos": 49,
+            "edgefrom": 49,
+            "edgeto": 8,
+            "progress": 6.0,
+            "path": [
+                49,
+                8,
+                1
+            ]
+        },
+        "reached": false,
+        "caught": false,
+        "events": [
+            {
+                "edge": [
+                    22,
+                    46
+                ],
+                "type": "one_way_block",
+                "step_start": 2,
+                "step_end": 8,
+                "original_weight": 5.5140748668793025
+            },
+            {
+                "edge": [
+                    1,
+                    15
+                ],
+                "type": "one_way_block",
+                "step_start": 5,
+                "step_end": 11,
+                "original_weight": 7.810318634686391
+            },
+            {
+                "edge": [
+                    22,
+                    32
+                ],
+                "type": "traffic_jam",
+                "step_start": 6,
+                "step_end": 9,
+                "original_weight": 9.719263735450726,
+                "multiplier": 4.383958687062423
+            }
+        ]
+    },
+    {
+        "step": 8,
+        "carAstate": {
+            "carApos": 1,
+            "edgefrom": 1,
+            "edgeto": 40,
+            "progress": 3,
+            "path": [
+                0,
+                1,
+                40,
+                38,
+                48
+            ]
+        },
+        "carBstate": {
+            "carBpos": 49,
+            "edgefrom": 49,
+            "edgeto": 8,
+            "progress": 7.5,
+            "path": [
+                49,
+                8,
+                1
+            ]
+        },
+        "reached": false,
+        "caught": false,
+        "events": [
+            {
+                "edge": [
+                    1,
+                    15
+                ],
+                "type": "one_way_block",
+                "step_start": 5,
+                "step_end": 11,
+                "original_weight": 7.810318634686391
+            },
+            {
+                "edge": [
+                    22,
+                    32
+                ],
+                "type": "traffic_jam",
+                "step_start": 6,
+                "step_end": 9,
+                "original_weight": 9.719263735450726,
+                "multiplier": 4.383958687062423
+            },
+            {
+                "edge": [
+                    35,
+                    14
+                ],
+                "type": "traffic_jam",
+                "step_start": 8,
+                "step_end": 11,
+                "original_weight": 7.6510854012978795,
+                "multiplier": 3.611586033816739
+            }
+        ]
+    },
+    {
+        "step": 9,
+        "carAstate": {
+            "carApos": 40,
+            "edgefrom": 40,
+            "edgeto": 38,
+            "progress": 0,
+            "path": [
+                0,
+                1,
+                40,
+                38,
+                48
+            ]
+        },
+        "carBstate": {
+            "carBpos": 8,
+            "edgefrom": 49,
+            "edgeto": 8,
+            "progress": 0,
+            "path": [
+                49,
+                8,
+                1
+            ]
+        },
+        "reached": false,
+        "caught": false,
+        "events": [
+            {
+                "edge": [
+                    1,
+                    15
+                ],
+                "type": "one_way_block",
+                "step_start": 5,
+                "step_end": 11,
+                "original_weight": 7.810318634686391
+            },
+            {
+                "edge": [
+                    35,
+                    14
+                ],
+                "type": "traffic_jam",
+                "step_start": 8,
+                "step_end": 11,
+                "original_weight": 7.6510854012978795,
+                "multiplier": 3.611586033816739
+            }
+        ]
+    },
+    {
+        "step": 10,
+        "carAstate": {
+            "carApos": 40,
+            "edgefrom": 40,
+            "edgeto": 38,
+            "progress": 1,
+            "path": [
+                0,
+                1,
+                40,
+                38,
+                48
+            ]
+        },
+        "carBstate": {
+            "carBpos": 8,
+            "edgefrom": 8,
+            "edgeto": 14,
+            "progress": 1.5,
+            "path": [
+                8,
+                14,
+                48,
+                38
+            ]
+        },
+        "reached": false,
+        "caught": false,
+        "events": [
+            {
+                "edge": [
+                    1,
+                    15
+                ],
+                "type": "one_way_block",
+                "step_start": 5,
+                "step_end": 11,
+                "original_weight": 7.810318634686391
+            },
+            {
+                "edge": [
+                    35,
+                    14
+                ],
+                "type": "traffic_jam",
+                "step_start": 8,
+                "step_end": 11,
+                "original_weight": 7.6510854012978795,
+                "multiplier": 3.611586033816739
+            }
+        ]
+    },
+    {
+        "step": 11,
+        "carAstate": {
+            "carApos": 40,
+            "edgefrom": 40,
+            "edgeto": 38,
+            "progress": 2,
+            "path": [
+                0,
+                1,
+                40,
+                38,
+                48
+            ]
+        },
+        "carBstate": {
+            "carBpos": 8,
+            "edgefrom": 8,
+            "edgeto": 14,
+            "progress": 3.0,
+            "path": [
+                8,
+                14,
+                48,
+                38
+            ]
+        },
+        "reached": false,
+        "caught": false,
+        "events": []
+    },
+    {
+        "step": 12,
+        "carAstate": {
+            "carApos": 40,
+            "edgefrom": 40,
+            "edgeto": 38,
+            "progress": 3,
+            "path": [
+                0,
+                1,
+                40,
+                38,
+                48
+            ]
+        },
+        "carBstate": {
+            "carBpos": 8,
+            "edgefrom": 8,
+            "edgeto": 14,
+            "progress": 4.5,
+            "path": [
+                8,
+                14,
+                48,
+                38
+            ]
+        },
+        "reached": false,
+        "caught": false,
+        "events": []
+    },
+    {
+        "step": 13,
+        "carAstate": {
+            "carApos": 40,
+            "edgefrom": 40,
+            "edgeto": 38,
+            "progress": 4,
+            "path": [
+                0,
+                1,
+                40,
+                38,
+                48
+            ]
+        },
+        "carBstate": {
+            "carBpos": 8,
+            "edgefrom": 8,
+            "edgeto": 14,
+            "progress": 6.0,
+            "path": [
+                8,
+                14,
+                48,
+                38
+            ]
+        },
+        "reached": false,
+        "caught": false,
+        "events": []
+    },
+    {
+        "step": 14,
+        "carAstate": {
+            "carApos": 38,
+            "edgefrom": 38,
+            "edgeto": 48,
+            "progress": 0,
+            "path": [
+                0,
+                1,
+                40,
+                38,
+                48
+            ]
+        },
+        "carBstate": {
+            "carBpos": 14,
+            "edgefrom": 8,
+            "edgeto": 14,
+            "progress": 0,
+            "path": [
+                8,
+                14,
+                48,
+                38
+            ]
+        },
+        "reached": false,
+        "caught": false,
+        "events": [
+            {
+                "edge": [
+                    1,
+                    15
+                ],
+                "type": "blockage",
+                "step_start": 14,
+                "step_end": 18,
+                "original_weight": 7.810318634686391
+            }
+        ]
+    },
+    {
+        "step": 15,
+        "carAstate": {
+            "carApos": 38,
+            "edgefrom": 38,
+            "edgeto": 48,
+            "progress": 1,
+            "path": [
+                0,
+                1,
+                40,
+                38,
+                48
+            ]
+        },
+        "carBstate": {
+            "carBpos": 14,
+            "edgefrom": 14,
+            "edgeto": 48,
+            "progress": 1.5,
+            "path": [
+                14,
+                48
+            ]
+        },
+        "reached": false,
+        "caught": false,
+        "events": [
+            {
+                "edge": [
+                    1,
+                    15
+                ],
+                "type": "blockage",
+                "step_start": 14,
+                "step_end": 18,
+                "original_weight": 7.810318634686391
+            },
+            {
+                "edge": [
+                    42,
+                    22
+                ],
+                "type": "one_way_block",
+                "step_start": 15,
+                "step_end": 21,
+                "original_weight": 3.3962577265030713
+            }
+        ]
+    },
+    {
+        "step": 16,
+        "carAstate": {
+            "carApos": 38,
+            "edgefrom": 38,
+            "edgeto": 48,
+            "progress": 2,
+            "path": [
+                0,
+                1,
+                40,
+                38,
+                48
+            ]
+        },
+        "carBstate": {
+            "carBpos": 48,
+            "edgefrom": 14,
+            "edgeto": 48,
+            "progress": 0,
+            "path": [
+                14,
+                48
+            ]
+        },
+        "reached": false,
+        "caught": false,
+        "events": [
+            {
+                "edge": [
+                    1,
+                    15
+                ],
+                "type": "blockage",
+                "step_start": 14,
+                "step_end": 18,
+                "original_weight": 7.810318634686391
+            },
+            {
+                "edge": [
+                    42,
+                    22
+                ],
+                "type": "one_way_block",
+                "step_start": 15,
+                "step_end": 21,
+                "original_weight": 3.3962577265030713
+            }
+        ]
+    },
+    {
+        "step": 17,
+        "carAstate": {
+            "carApos": 48,
+            "edgefrom": 38,
+            "edgeto": 48,
+            "progress": 0,
+            "path": [
+                0,
+                1,
+                40,
+                38,
+                48
+            ]
+        },
+        "carBstate": {
+            "carBpos": 48,
+            "edgefrom": 48,
+            "edgeto": 48,
+            "progress": 1.5,
+            "path": [
+                48
+            ]
+        },
+        "reached": false,
+        "caught": true,
+        "events": [
+            {
+                "edge": [
+                    1,
+                    15
+                ],
+                "type": "blockage",
+                "step_start": 14,
+                "step_end": 18,
+                "original_weight": 7.810318634686391
+            },
+            {
+                "edge": [
+                    42,
+                    22
+                ],
+                "type": "one_way_block",
+                "step_start": 15,
+                "step_end": 21,
+                "original_weight": 3.3962577265030713
+            }
+        ]
+    }
+]
